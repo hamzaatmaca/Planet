@@ -1,0 +1,29 @@
+@charset 'utf-8';
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('./img/space2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+}
+
+#planet{
+	position: absolute;
+	background-image: url("./img/earth.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+
+#sun{
+	position: relative;
+	background-image: url("./img/sun.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
